@@ -4,7 +4,7 @@
 // 3! -> 3x2x1
 // 4! -> 4x3x2x1
 
-function factorial(n){
+function factorial(n:number):number{
     if(n <= 0){
         return 1
     }else {
